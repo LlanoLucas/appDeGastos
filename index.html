@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>App de Gastos</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="h1">App de Gastos</h1>
+    </header>
+
+    <main>
+      <p>Ingresa cuánto pagó cada persona</p>
+      <form class="flex-form">
+        <ul>
+          <li>
+            <input
+              type="text"
+              placeholder="Nombre"
+              id="persona"
+              class="persona"
+            />
+          </li>
+          <li>
+            <input
+              type="number"
+              placeholder="Monto Pagado"
+              id="monto"
+              class="monto"
+            />
+          </li>
+          <li>
+            <button id="btn" class="btn" onclick="repartir()">Enviar</button>
+          </li>
+        </ul>
+      </form>
+      <ul id="lista-automatica" class="lista-automatica"></ul>
+      <div id="total" type="text"></div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
