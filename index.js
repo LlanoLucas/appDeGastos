@@ -1,9 +1,9 @@
 const personas = [];
 const montos = [];
-const listado = getElementById("lista-automatica");
-const pagos = getElementById("monto");
-const total = getElementById("total");
-const nombres = getElementById("persona");
+const listado = document.getElementById("lista-automatica");
+const pagos = document.getElementById("monto");
+const total = document.getElementById("total");
+const nombres = document.querySelector("persona");
 
 function repartir() {
   añadirFila();
@@ -21,6 +21,7 @@ function alFinal() {
   const text = document.createTextNode(
     `${nombres.value} Pagó: $${pagos.value}`
   );
+  addClas;
   li.appendChild(text);
   listado.appendChild(li);
 }

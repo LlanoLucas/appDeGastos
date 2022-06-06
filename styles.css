@@ -63,7 +63,7 @@ input :focus {
 button {
   background-color: #ffef13;
   border-radius: 12px;
-  padding: 10px;
+  padding: 10px 10px;
   border: 2.5px solid #ffef13;
   cursor: pointer;
   font-weight: bold;
