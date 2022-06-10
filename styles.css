@@ -23,7 +23,7 @@ header .h1 {
 
 main p {
   text-align: center;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .flex-form {
@@ -53,6 +53,7 @@ input {
   border: 2.5px solid #ffef13;
   border-radius: 12px;
   padding: 10px;
+  font-size: 18px;
 }
 
 input :focus {
@@ -67,6 +68,7 @@ button {
   border: 2.5px solid #ffef13;
   cursor: pointer;
   font-weight: bold;
+  font-size: 15px;
 }
 
 button :hover {
@@ -75,5 +77,12 @@ button :hover {
 
 button :active {
   border: 2.5px solid #000;
+}
+
+.lista-automatica {
+  margin-left: 20%;
+  list-style: none;
+  line-height: 30px;
+  font-size: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
