@@ -30,7 +30,7 @@ function sumarMontos(montos) {
 
 function mostrarPago() {
   const total = sumarMontos(montos);
-  const montosIndividuales = total / montos.lentght;
+  const montosIndividuales = total / montos.length;
   cuadroInfo.innerText = `Total: $${total}
                     A cada uno le toca aportar: $${montosIndividuales.toFixed(
                       2

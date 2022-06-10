@@ -2,6 +2,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
 }
 
 header {
@@ -17,7 +18,7 @@ header .h1 {
   text-align: center;
   background-color: inherit;
   margin-top: 0;
-  padding: 7.5%;
+  padding: 6.7%;
   font-size: 3em;
 }
 
@@ -80,7 +81,7 @@ button :active {
 }
 
 .lista-automatica {
-  margin-left: 20%;
+  margin-left: 28.5%;
   list-style: none;
   line-height: 30px;
   font-size: 20px;
